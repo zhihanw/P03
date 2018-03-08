@@ -1,0 +1,81 @@
+/*
+* zhihan wei
+*/
+
+h1, h2, h3, h4{
+    color: black;
+	font-weight: normal;
+	font-family: 'Calluna-Regular', serif;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+
+
+
+
+body{
+    font-family: 'Calluna-Regular', serif; font-size: 90%; line-height: 1.2em; width: 100%; margin: 0; background: #FFF;
+}
+
+#page{ margin: 20px; }
+
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+#nav{
+	width: 160%;
+	display: inline-block;
+	text-align:center;
+	float: center;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 30px;
+				background: white;
+				color: black;
+			}
+			#nav ul li a:hover{
+				background-color:#3EEAB7;
+			
+			}
+			#nav ul li a:active{ background-color: #3EEAB7; }
+
+#content{
+	margin: 60px 0;
+	background: white;
+	padding: 60px;
+	clear: both;
+	width:90%;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+
+.p1{
+	width:50%;
+    
+
+}
+
+/*project section*/

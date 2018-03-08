@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width-of-device,initial-scale=1.0">
+
+    <title>P03 - Zh’s Profolio Style Guide</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <h1 class="styleguide">P03 - Profolio Style Guide</h1>
+
+    <nav>
+
+      <p>On this page:</p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+    </nav>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Navigation Button -->
+      <section>
+
+        <h2 class="styleguide">Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button-nav" &gt;About&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav">About</a>
+          <a class="button-nav">Projects</a>
+          <a class="button-nav">Contact</a>
+
+      </section>
+
+
+
+      <!-- About Me  -->
+      <section>
+
+        <h2 class="styleguide">About Me</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button_about,.button_about:hover, .button_about:focus</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="button_about" href="#"&gt;about&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button_about" href="#">About Me</a>
+
+      </section>
+
+
+    </section>
+
+
+
+    <!-- TEXT ELEMENTS SECTION  -->
+    <section id="text_elements">
+       
+
+        
+
+        <!-- Three levels of headings -->
+        <section>
+
+          <h2 class="styleguide">Headings</h2>
+
+          <h3>CSS selector:</h3>
+          <p>h1.heading1, h2.heading2, h3.heading3</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h1 class="heading1"&gt;I'm Zhihan Wei&lt;/h1&gt;</code>
+          <code>&lt;h2 class="heading2"&gt;I'm Zhihan Wei&lt;/h2&gt;</code>
+          <code>&lt;h3 class="heading3"&gt;I'm Zhihan Wei&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h1 class="heading1">Hi！I'm Zhihan Wei</h1>
+          <h2 class="heading2">I'm Zhihan Wei</h2>
+          <h3 class="heading3">I'm Zhihan Wei</h3>
+
+        </section>
+
+        <!-- Paragraphs -->
+        <section>
+
+          <h2 class="styleguide">Bio Paragraphs</h2>
+
+          <h3>CSS selector:</h3>
+          <p>p</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;p&gt; I am an enthusiast in user interface design, interactive media system design. I love exploring the field of user experience design and i think design is a way of thinking and the ability to understand people’s everyday experiences. I pay close attention to the development of the high-new technology such as the immersive interactive applications based on the advanced computing technology and body interface interaction. With a few years of experience in the intersection of technology and the creative events, I have the ability to overcome the challenge from sound editing to interactive user interface design.&lt;/p&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <p>I am an enthusiast in user interface design, interactive media system design. I love exploring the field of user experience design and i think design is a way of thinking and the ability to understand people’s everyday experiences. I pay close attention to the development of the high-new technology such as the immersive interactive applications based on the advanced computing technology and body interface interaction. With a few years of experience in the intersection of technology and the creative events, I have the ability to overcome the challenge from sound editing to interactive user interface design.</p>
+
+        </section>
+
+     
+
+      <!-- Numbered Lists -->
+   
+
+    </section>
+
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <section id="combined_elements">
+
+
+      <!-- A product/service listing -->
+      <section>
+
+        <h2 class="styleguide">Project Work Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.container</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="container"&gt;</code>
+        <code>&lt;div class="item"&gt;</code>
+        <code>&lt;img src="image/projects/maxmsp.png" alt="maxmsp"&gt;</code>
+        <code>&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="container">
+          <p></p>
+          <div class="item">
+            <p>Electronical Interactive Sound Play</p>
+            <img src="image/projects/maxmsp.png" alt="maxmsp">
+                <p>In this Project I designed 3 interaction forms to get interact in Max at the sametime. Firstly, I use the Arduino UNO to communicate with the Max. I use Arduino Water Level Sensor to trigger a sound according to the sensor get into to the water. By chatting with the Max. If the sensor touch the water, the sound will be play in the speaker. In Max, when the value less than the value 200, it will activate the switch but the audio playback mad. It continues to arrive from an active toogle signal. It activates the togedge. If the value exceed 200, the sounding will get block. Moreover, i overcome the problem in the Max to makesure user can use mouse or touch to draw the blank board to get interaction with the real-time cam on the computer. Different waveform sounds frequency will be activate and playing when user drawing on the board. Meanwhile, the object that the cam captured will distortion. If user press the “close”button on the interface, the image that camera captured will be static.Lastly, user also can click or touch the piano or just press the "button" shown on the interface to get more interactive sound playing effect. If user interact with the interface at the same time, it can create an interesting diegetic sound playing.
+I really enjoy doing these project, it is so attractive. I have learned a lot about how to make interactive sound installation by using Max communicate with other devices.</p>
+          </div>
+
+          <div class="item">
+              <p>Humanity In-Dependence</p>
+            <img src="image/projects/Processing_result.jpg" alt="Processing_result">
+               <p>Humanity In-Dependence consists of a single screen projection of an image that
+can change based off of audience interaction. The audience can interact with the
+artwork by shining a flashlight at the light sensor located inside the grey box
+container. Upon detecting the flashlight, the screen will switch back and forth between
+that of a human face and a robotic face. The challenge I met was the projected image was initially a static image. I should make the image to be more dynamic prior to the prompt of the flashlight so that the artwork is less static when seen from a distance. To solve the problem, I re-programmed in the processing of the image. so that it would fade back and forth between the two images via a timer.The audience can continue manipulate the image for as long as they have the flashlight aimed at the light sensor or until they decide to leave. The project requires a person to input a light source in reality which will manipulate the digital space through a computer. I found that the primary visual feedback given by digital image manipulation requires both human and machine working together for a successful interaction to take place.</p>
+          </div>
+
+          
+        </div>
+
+      </section>
+
+      <!-- Website Grid Structure -->
+      <section>
+
+        <h2 class="styleguide">Website Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid1, .grid1_row, .grid1_1, .grid1_2</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="grid_row"&gt;</code>
+        <code>&lt;div class="grid1_1"&gt;&lt;/div&gt;</code>
+        <code>&lt;div class="grid1_2"&gt;&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid_row">
+
+          <div class="grid1">grid1 About</div>
+        </div>
+
+
+        <div class="grid_row">
+          <div class="grid1_1">grid1_1 Project1</div>
+          <div class="grid1_2">grid1_2 Project2</div>
+            
+        </div>
+       <div class="grid_row">
+
+          <div class="grid1">grid3 Contact</div>
+        </div>
+      
+
+      </section>
+
+      <!-- Website colour swatches -->
+      <section>
+
+        <h2 class="styleguide">Website colour swatches</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.color_swathces1, .color_swathces2,.color_swathces3,.color_swathces4,.color_swathces5 </p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class="color_swatches1"&gt;#EA0101&lt;/p&gt;</code>
+           <code>&lt;p class="color_swatches1"&gt;#3EEAB7&lt;/p&gt;</code>
+           <code>&lt;p class="color_swatches1"&gt;#574C4C&lt;/p&gt;</code>
+           <code>&lt;p class="color_swatches1"&gt;#000&lt;/p&gt;</code>
+            <code>&lt;p class="color_swatches1"&gt;#5CF1F6&lt;/p&gt;</code>
+        <h3>Rendered element:</h3>
+        <p class="color_swatches1">#EA0101</p>
+        <p class="color_swatches2">#3EEAB7</p>
+        <p class="color_swatches3">#574C4C</p>
+        <p class="color_swatches4">#000</p>
+        <p class="color_swatches5">#5CF1F6</p>
+
+
+      </section>
+
+    </section>
+
+  </body>
+</html>
