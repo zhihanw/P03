@@ -3,7 +3,7 @@
 */
 
 h1, h2, h3, h4{
-    color: black;
+    color: white;
 	font-weight: normal;
 	font-family: 'Calluna-Regular', serif;
 	margin: 0 0 .5em 0;
@@ -65,7 +65,7 @@ body{
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 80%;
-		color: grey;
+		color: white;
 	}
 
 #content,
