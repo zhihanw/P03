@@ -31,6 +31,7 @@ body {
  font-family: 'Calluna-Regular', serif;
   padding: 2em;
  background-color:white;
+
 }
 
 
@@ -210,6 +211,7 @@ input {
 
 /* Three levels of headings styling */
 h1.heading1{
+	 color:black;
   font-family: 'Calluna-Regular', serif;
   text-transform: uppercase;
 	font-size: 8em;
