@@ -3,9 +3,14 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-p {
+p { text-align: left;
   line-height: 1.75;
 }
+.text-muted{
+
+text-align: center;}
+
+
 
 a {
   color: #fed136;
@@ -245,7 +250,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(191, 255, 242, 0.8);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -377,7 +382,7 @@ header.masthead .intro-text .intro-heading {
   z-index: 1052;
   width: 1px;
   height: 75px;
-  /* IE 9 */
+  /* IE 10 */
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -570,26 +575,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
 
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
-}
 
 section#contact {
   background-color: #212529;
@@ -692,3 +678,22 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
