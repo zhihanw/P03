@@ -6,12 +6,12 @@
 .button_submit {
   font-family: "Futura";
   font-weight: bold;
-  border-radius: 4em;
+  border-radius: 1em;
   display: inline-block;
   padding: .5em .5em;
   color: white;
-  background-color: #322826;
-  border: .4em solid #322826;
+  background-color: #FFCA76;
+  border: .4em solid #FFCA76;
   text-decoration: none;
 	-webkit-transition: background-csolor 0.4s ease-in-out;
   transition: background-color 0.4s ease-in-out;
@@ -23,7 +23,7 @@
 	-webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
   background-color: white;
-  color:#322826;
+  color:#FFCA76;
 
 
 }
@@ -166,29 +166,8 @@ img {
 
 
 
-/* Styling for the reset button */
-.button_reset {
-  font-family: 'Calluna-Regular', serif;
-  font-weight: bold;
-  border-radius: 2em;
-  display: inline-block;
-  padding: .5em .8em;
-  color: white;
-  background-color: #ffa8c7;
-  border: .4em solid #ffa8c7;
-  text-decoration: none;
-	-webkit-transition: background-csolor 0.4s ease-in-out;
-  transition: background-color 0.4s ease-in-out;
-}
-
-.button_reset:hover, .button_reset:focus {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 0.5s;
-  background-color: white;
-  color:#ffa8c7;
 
 
-}
 
 
 /* Styling for the  text input field and a label */
@@ -214,7 +193,7 @@ h1.heading1{
 	 color:black;
   font-family: 'Calluna-Regular', serif;
   text-transform: uppercase;
-	font-size: 8em;
+	font-size: 2em;
 }
 h2.heading2{
  font-family: 'Calluna-Regular', serif;
@@ -347,7 +326,7 @@ color:#322826;
 /*styling for color swathces*/
 
 .color_swatches1{
-	background-color: #EA0101;
+	background-color: #3DF2ED;
 	border-radius: 0.5em;
 	padding:0.7em;
   color: white;
@@ -356,22 +335,12 @@ color:#322826;
 
 
 .color_swatches2{
-	background-color: #3EEAB7;
+	background-color: #FFCA76;
 	border-radius: 0.5em;
 	padding:0.7em;color: white;
 }
 .color_swatches3{
-	background-color: #574C4C;
-	border-radius: 0.5em;
-	padding:0.7em;color: white;
-}
-.color_swatches4{
-	background-color: #000;
-	border-radius: 0.5em;
-	padding:0.7em;color: white;
-}
-.color_swatches5{
-	background-color: #5CF1F6;
+	background-color: #212529;
 	border-radius: 0.5em;
 	padding:0.7em;color: white;
 }
